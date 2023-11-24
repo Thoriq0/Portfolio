@@ -1,10 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Mengambil elemen tombol hamburger dan menu mobile
-    const hamburgerIcon = document.getElementById('hamburger-icon');
-    const mobileMenu = document.getElementById('mobile-menu');
+document.addEventListener("DOMContentLoaded", function () {
+    var navbar = document.querySelector('.navbar');
 
-    // Menambahkan event listener untuk mengubah tampilan menu mobile saat tombol hamburger ditekan
-    hamburgerIcon.addEventListener('click', function () {
-        mobileMenu.classList.toggle('hidden');
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+            navbar.classList.add('colored');
+            navbar.classList.remove('transparant');
+        } else {
+            navbar.classList.add('transparant');
+            navbar.classList.remove('colored');
+        }
     });
 });

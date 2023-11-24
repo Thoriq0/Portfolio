@@ -12,9 +12,9 @@
 </head>
 <body>
     <!-- Navbar  -->
-    <nav class="navbar bg-black bg-opacity-25 flex justify-between items-center p-5">
+    <nav class="navbar bg-opacity-25 flex justify-between items-center p-5">
         <div class="icon inline-block">
-            <h1 class="font-pop font-extrabold tracking-widest">PORTFOLIO.</h1>
+            <h1 class="font-pop font-extrabold tracking-widest text-white pl-5">PORTFOLIO.</h1>
         </div>
         <!-- <div class="list inline-block">
             <ul>
@@ -24,30 +24,72 @@
                 <li>Contact</li>
             </ul
         </div> -->
-        <div class="right inline-block">
-            <img src="../Asset/icon/bars-solid.svg" width="20" cl>
+        <div class="right inline-block pr-5">
+            <img src="../Asset/icon/bars-solid.svg" width="20" style="filter: invert(100%);">
         </div>
     </nav>
 
     <!-- Section 1 - Header -->
-    <div class="sec1 bg-cover bg-center h-72" style="background-image: url('../Asset/img/view.jpg');">
+    <div class="sec1 bg-cover bg-center h-[750px]">
         <!-- Greetings -->
-        <div class="title pl-11 pt-28">
-            <h1 class="text-white font-extrabold tracking-widest text-2xl">My Name Is</h1>
-            <h3 class="text-white font-extrabold tracking-widesr text-4xl">Ahmad Thoriq</h3>
+        <div class="title pl-11 pt-[270px] pb-2">
+            <h1 class="text-white font-extrabold text-3xl pb-1">My Name Is</h1>
+            <h3 class="text-white font-extrabold tracking-widesr text-5xl">Ahmad Thoriq</h3>
         </div>
         <!-- Title job -->
         <div class="jobTitle bg-yellow-600 w-52 text-center p-4 ml-11 mt-2 rounded-lg">
             <h5 class="font-extrabold text-lg">I'm Web Developer</h5>
         </div>  
+        <!-- Social -->
     </div>
 
-    <!-- Section 2 - About  -->
-    <div class="sec2 bg-slate-500">
-        <div class="image pt-10 mb-14">
-            <img src="../Asset/img/people.jpg" alt="thoriq" class="w-11 h-14">
+    <!-- Section 2 -->
+    <div class="sec2 bg-[#1b1f29] w-[410px] rounded-xl m-auto absolute top-[700px]">
+        <!-- Title -->
+        <!-- <div class="title text-center">
+            <h1 class="text-white text-2xl font-bold pt-6">Follow Me On</h1>
+        </div> -->
+        <!-- Icon -->
+        <div class="ic1 p-7">
+            <ul class="text-center">
+                <li>
+                    <img src="../Asset//icon/linkedin.svg" width="25" style="filter: invert(100%);" >
+                </li>
+                <li>
+                    <img src="../Asset//icon/instagram.svg" width="25" style="filter: invert(100%);" >
+                </li>
+                <li>
+                    <img src="../Asset//icon/github.svg" width="25" style="filter: invert(100%);" >
+                </li>
+                <li>
+                    <img src="../Asset//icon/whatsapp.svg" width="25" style="filter: invert(100%);" >
+                </li>
+            </ul>
+        </div>
+        <!-- End Icon -->
+    </div>
+
+
+    <!-- Section 3 - About  -->
+    <div class="sec3 bg-[#1b1f29]">
+        <div class="title text-center">
+            <h1 class="pb-2 pt-28 font-extrabold text-white text-2xl">About Me</h1>
+            <hr class="w-48 m-auto rounded-xl border-2">
+        </div>
+        <div class="image pt-20 pb-20">
+            <div class="images">
+                <img src="../Asset/img/For CV.jpg" alt="thoriq" class="w-[190px] h-[190px] rounded-full m-auto border-solid border-white border-2">
+            </div>
+            <div class="content">
+                <p class="text-white text-center p-12 font-pop">
+                    Hello, I'm Thoriq, a Junior Web Developer with passion for crafting functional and visually appealing wbsites. I thrive on turning ideas into interactive digital experiences taht not only look great but also provide seamless user experiences
+                </p>
+                <button type="submit" class="bg-yellow-600 w-52 text-center p-4 mt-2 rounded-lg mx-auto block">
+                    <h5 class="text-lg font-semibold font-pop">Download CV</h5>
+                </button>
+            </div>
         </div>
     </div>
-
+    
 </body>
 </html>
