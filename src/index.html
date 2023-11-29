@@ -14,9 +14,9 @@
     <!--//! Navbar  -->
     <nav class="navbar bg-opacity-25 flex justify-between items-center p-5">
         <div class="icon inline-block">
-            <h1 class="font-pop font-extrabold tracking-widest text-white pl-5 lg:text-red-500 md:pl-11">PORTFOLIO.</h1>
+            <h1 class="font-pop font-extrabold tracking-widest text-white pl-5 md:pl-11 xl:pl-20 xl:text-xl">PORTFOLIO.</h1>
         </div>
-        <div class="list text-white">
+        <div class="list text-white xl:mr-20 xl:text-lg">
             <ul class="hidden lg:inline-block">
                 <li>Home</li>
                 <li>About</li>
@@ -43,12 +43,12 @@
     <!--//! Section 1 - Header -->
     <div class="sec1 bg-cover bg-center h-[750px]">
         <!-- Greetings -->
-        <div class="title pl-11 pt-[270px] pb-2 md:pl-16">
-            <h1 class="text-white font-extrabold text-3xl pb-1 md:text-red-600 md:text-5xl">My Name Is</h1>
-            <h3 class="text-white font-extrabold tracking-widesr text-5xl md:text-6xl">Ahmad Thoriq</h3>
+        <div class="title pl-11 pt-[270px] pb-2 md:pl-16 xl:pl-24">
+            <h1 class="text-white font-extrabold text-3xl pb-1 md:text-5xl xl:text-6xl">My Name Is</h1>
+            <h3 class="text-white font-extrabold tracking-widesr text-5xl md:text-6xl xl:text-7xl">Ahmad Thoriq</h3>
         </div>
         <!-- Title job -->
-        <div class="jobTitle bg-yellow-600 w-64 text-center p-5 ml-11 mt-2 rounded-lg md:mt-3 md:ml-16">
+        <div class="jobTitle bg-yellow-600 w-64 text-center p-5 ml-11 mt-2 rounded-lg md:mt-3 md:ml-16 xl:ml-24">
             <h5 class="font-extrabold text-lg md:text-xl">I'm Web Developer</h5>
         </div>  
         <!-- Social -->
@@ -64,13 +64,19 @@
         <div class="ic1 p-7">
             <ul class="text-center">
                 <li>
-                    <img src="../Asset//icon/linkedin.svg" width="25" style="filter: invert(100%);" >
+                    <a href="https://www.linkedin.com/in/ahmad-thoriq-61136b245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img src="../Asset//icon/linkedin.svg" width="25" style="filter: invert(100%);" >
+                    </a>
                 </li>
                 <li>
-                    <img src="../Asset//icon/instagram.svg" width="25" style="filter: invert(100%);" >
+                    <a href="https://www.instagram.com/thoriq6134/">
+                        <img src="../Asset//icon/instagram.svg" width="25" style="filter: invert(100%);" >
+                    </a>
                 </li>
                 <li>
-                    <img src="../Asset//icon/github.svg" width="25" style="filter: invert(100%);" >
+                    <a href="https://github.com/Thoriq0">
+                        <img src="../Asset//icon/github.svg" width="25" style="filter: invert(100%);" >
+                    </a>
                 </li>
                 <li>
                     <img src="../Asset//icon/whatsapp.svg" width="25" style="filter: invert(100%);" >
@@ -89,15 +95,28 @@
             <hr class="w-48 m-auto rounded-xl border-2">
         </div>
         <!-- Content -->
-        <div class="image pt-20 pb-20">
-            <div class="images">
+        <div class="image pt-20 pb-20 xl:flex xl:flex-wrap xl:justify-between xl:w-full">
+            <div class="images xl:hidden">
                 <img src="../Asset/img/For CV.jpg" alt="thoriq" class="w-[190px] h-[190px] rounded-full m-auto border-solid border-white border-2">
             </div>
-            <div class="content">
-                <p class="text-white text-center p-12 font-pop md:pl-20 md:pr-20">
+            <div class="imagee hidden xl:inline-block ml-36">
+                <img src="../Asset/img/For CV.jpg" alt="thoriq" width="400" class="rounded-xl">
+            </div>
+            <div class="content xl:inline-block xl:items-end xl:w-[700px]">
+                <p class="text-white text-center p-12 font-pop md:pl-20 md:pr-20 xl:hidden">
                     Hello, I'm Thoriq, a Junior Web Developer with passion for crafting functional and visually appealing wbsites. I thrive on turning ideas into interactive digital experiences taht not only look great but also provide seamless user experiences
                 </p>
-                <button type="submit" class="bg-yellow-600 w-52 text-center p-4 mt-2 rounded-lg mx-auto block">
+                <h1 class="hidden xl:inline-block text-white font-pop text-end text-2xl float-right pr-36 font-bold mb-5">Hello, I'm Thoriq,</h1>
+                <p class="hidden xl:inline-block text-white font-pop text-end pr-36" style="text-align: justify;">
+                    a Junior Web Developer skilled in HTML, CSS, and JavaScript DOM. I'm also proficient in PHP native development.
+
+                    With a focus on creating visually appealing user interfaces, I enjoy crafting websites that are both visually engaging and functional. My skills involve implementing creative concepts into digital experiences that users can enjoy.
+
+                    I have experience managing and manipulating the DOM using JavaScript, as well as the ability to develop backends using PHP native. This combination allows me to create responsive and interactive websites.
+
+                    If you have a project or challenge that needs solving, I'm ready to collaborate and bring your ideas to life through creative web development. Let's discuss further!
+                </p>
+                <button type="submit" class="bg-yellow-600 w-52 text-center p-4 mt-2 rounded-lg mx-auto block xl:mx-0 xl:block xl:float-right xl:mr-36 xl:mt-14">
                     <h5 class="text-lg font-semibold font-pop">Download CV</h5>
                 </button>
             </div>
@@ -178,7 +197,7 @@
             <hr class="w-48 m-auto rounded-xl border-2">
         </div>
         <!-- Cars -->
-        <div class="cards flex flex-wrap pl-14 pr-14">
+        <div class="cards flex flex-wrap justify-start pl-14 pr-14">
             <!--//* Card 1 -->
             <div class="card bg-[#362e50] w-80 mx-auto mt-10 rounded-xl">
                 <!--? Image/icon -->

@@ -63,7 +63,16 @@
     -moz-filter: grayscale(14%) sepia(8%) brightness(30%) saturate(113%) contrast(105%);
     z-index: -1;
 }
-
+@media (min-width: 1280px) {
+    .sec1::before {
+        background-position: center top -500px !important;
+    }
+}
+@media (min-width: 1028px) {
+    .sec1::before {
+        background-position: center top -200px;
+    }
+}
 .sec1 {
     position: relative;
     overflow: hidden; 
@@ -81,3 +90,54 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+/*! Section 3  */
+/*! Section 4  */
+.sec4 .cards{
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+/*! Section 5  */
+.sec5 .cards{
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+
+}
+/*! Scroll */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #035C75 #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+  }
+  *::-webkit-scrollbar-track {
+    /* border-radius: 7px; */
+    background-color: #1b1f29;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    /* border-radius: 5px; */
+    background-color: #141e49;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #62A34B;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #62A34B;
+  }
+
